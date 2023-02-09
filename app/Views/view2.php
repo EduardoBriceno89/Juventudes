@@ -299,12 +299,12 @@
                   <input type="text" name="" id="" class="form-control">
               </div>
 
-              <fieldset class="row my-3 justify-content-between">
-                <div class="col" style="max-width: 192px;">
+              <fieldset class="row mx-0 my-3 p-0">
+                <div class="col-3 pe-0">
                   <label class="co-form-label" style="font-size: 17px;">Interés</label>
                 </div>
-                <div class="col">
-                  <div class="row">
+                <div class="col ps-4">
+                  <div class="row justify-content-between">
                     <div class="col-sm-2 p-0">
                       <div class=" form-check">
                         <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
