@@ -195,7 +195,7 @@
                     <a class="nav-link" title="" href="https://www.col.gob.mx/juventud/#noticias">Noticias</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" title="" href="/view2.html"><button class="btn" style="background-color: #B69664; color: white;">Registrate</button></a>
+                    <a class="nav-link" title="" href=""><button class="btn" style="background-color: #B69664; color: white;">Registrate</button></a>
                   </li>
                                                 
               </ul>
@@ -229,7 +229,7 @@
   </div>
 
   <div class="row mt-3">
-    <div class="col-sm-2">
+    <div class="col-sm-2 m-0 p-0">
       <img src="<?= base_url() ?>/assets/images/2-02-02.jpg" class="img-fluid mh-100" alt="img">
 
     </div>
@@ -408,7 +408,7 @@
           
       </form>
     </div>
-    <div class="col-sm-2">
+    <div class="col-sm-2 m-0 p-0">
       <img src="<?= base_url() ?>/assets/images/3-03.jpg" class="img-fluid" alt="img">
     </div>
   </div>
