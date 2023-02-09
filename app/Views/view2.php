@@ -260,7 +260,6 @@
               <div class="col-sm-9">
                   <input type="text" name="" id="" class="form-control col" disabled>
               </div>
-              
           </div>
           <div class="row mb-3">
               <label for="" class="col-form-label col-sm-3">Apellido materno: </label>
@@ -299,114 +298,121 @@
               <div class="col ">
                   <input type="text" name="" id="" class="form-control">
               </div>
+
+              <fieldset class="row my-3 justify-content-between">
+                <div class="col" style="max-width: 192px;">
+                  <label class="co-form-label" style="font-size: 17px;">Interés</label>
+                </div>
+                <div class="col">
+                  <div class="row">
+                    <div class="col-sm-2 p-0">
+                      <div class=" form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Educación
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Salud
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
+                        <label class="form-check-label" for="gridRadios3">
+                          Deportes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                        <label class="form-check-label" for="gridRadios5">
+                          Promociones
+                        </label>
+                      </div>
+                      
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios4" value="option3">
+                        <label class="form-check-label" for="gridRadios4">
+                          Cultura
+                        </label>
+                      </div>
+                      
+                    </div>
+                    <div class="col-sm-3 ml-5 p-0">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
+                        <label class="form-check-label" for="gridRadios3">
+                          Economía y negocios
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                        <label class="form-check-label" for="gridRadios5">
+                          Empleo
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                        <label class="form-check-label" for="gridRadios5">
+                          Cultura política
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                        <label class="form-check-label" for="gridRadios5">
+                          Jóvenes
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                        <label class="form-check-label" for="gridRadios5">
+                          Migrantes
+                        </label>
+                      </div>
+                        
+                    </div>
+                    <div class="col-sm-3 p-0 mw-auto" style="max-width: 167px;">
+                      <div class=" form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                        <label class="form-check-label" for="gridRadios1">
+                          Seguridad
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+                        <label class="form-check-label" for="gridRadios2">
+                          Proteccion Civil
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
+                        <label class="form-check-label" for="gridRadios3">
+                          Capacitacion
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                        <label class="form-check-label" for="gridRadios5">
+                          Tics
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                        <label class="form-check-label" for="gridRadios5">
+                          Desarrollo Social
+                        </label>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+  
+              </fieldset>
           </div>
-          <fieldset class="row mb-3 justify-content-between">
-              <div class="col" style="max-width: 192px;">
-                <label class="co-form-label" style="font-size: 17px;">Interés</label>
-              </div>
-              <div class="col-sm-2 p-0">
-                <div class=" form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
-                    Educación
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
-                  <label class="form-check-label" for="gridRadios2">
-                    Salud
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
-                  <label class="form-check-label" for="gridRadios3">
-                    Deportes
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Promociones
-                  </label>
-                </div>
-                
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios4" value="option3">
-                  <label class="form-check-label" for="gridRadios4">
-                    Cultura
-                  </label>
-                </div>
-                
-              </div>
-              <div class="col-sm-3 ml-5 p-0">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
-                  <label class="form-check-label" for="gridRadios3">
-                    Economía y negocios
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Empleo
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Cultura política
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Jóvenes
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Migrantes
-                  </label>
-                </div>
-                  
-              </div>
-              <div class="col-sm-3 p-0 mw-auto" style="max-width: 167px;">
-                <div class=" form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
-                    Seguridad
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
-                  <label class="form-check-label" for="gridRadios2">
-                    Proteccion Civil
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
-                  <label class="form-check-label" for="gridRadios3">
-                    Capacitacion
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Tics
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Desarrollo Social
-                  </label>
-                  
-                </div>
-              </div>
-              
-              
-          </fieldset>
+
+          
 
           <div class="row justify-content-center">
             <div class="col-1">
