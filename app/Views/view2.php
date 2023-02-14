@@ -240,182 +240,228 @@
 
     </div>
     <div class="col">
-      <form>
-          <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">CURP: </label>
-              <div class="col-sm-9 d-flex justify-content-around">
-                <input type="text" name="" id="" class="form-control col">
-                <button class="btn" style="background-color: transparent;"><i class="bi bi-search fw-bold" style="color: #612233; font-size: 1rem; font-weight: 500;"></i></button>
-              </div>              
-          </div>
-          <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Nombre: </label>
-              <div class="col-sm-9">  
-                <input type="text" name="" id="" class="form-control col" disabled>
-              </div>
-              
-          </div>
-          <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Apellido paterno: </label>
-              <div class="col-sm-9">
-                  <input type="text" name="" id="" class="form-control col" disabled>
-              </div>
-              
-          </div>
-          <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Apellido materno: </label>
-              <div class="col-sm-9">
-                  <input type="text" name="" id="" class="form-control col" disabled>
-              </div>
-              
-          </div>
-          <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Lugar de nacimiento: </label>
-              <div class="col">
-                  <input type="text" name="" id="" class="form-control" disabled>
-              </div>
-              
-          </div>
-          <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Fecha de nacimiento:</label>
-              <div class="col">
-                  <input type="date" name="" id="" class="form-control" disabled>
-              </div>
-          </div>
-          <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Correo electronico:</label>
-              <div class="col">
-                  <input type="email" name="" id="" class="form-control">
-              </div>
-          </div>
-          <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Numero de celular:</label>
-              <div class="col">
-                  <input type="text" name="" id="" class="form-control">
-              </div>
-          </div>
-          <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Nombre de padre o tutor:</label>
-              <div class="col ">
-                  <input type="text" name="" id="" class="form-control">
-              </div>
-          </div>
-          <fieldset class="row mb-3 justify-content-between">
-              <div class="col" style="max-width: 192px;">
-                <label class="co-form-label" style="font-size: 17px;">Interés</label>
-              </div>
-              <div class="col-sm-2 p-0">
-                <div class=" form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
-                    Educación
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
-                  <label class="form-check-label" for="gridRadios2">
-                    Salud
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
-                  <label class="form-check-label" for="gridRadios3">
-                    Deportes
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Promociones
-                  </label>
-                </div>
-                
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios4" value="option3">
-                  <label class="form-check-label" for="gridRadios4">
-                    Cultura
-                  </label>
-                </div>
-                
-              </div>
-              <div class="col-sm-3 ml-5 p-0">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
-                  <label class="form-check-label" for="gridRadios3">
-                    Economía y negocios
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Empleo
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Cultura política
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Jóvenes
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Migrantes
-                  </label>
-                </div>
-                  
-              </div>
-              <div class="col-sm-3 p-0 mw-auto" style="max-width: 167px;">
-                <div class=" form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
-                    Seguridad
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
-                  <label class="form-check-label" for="gridRadios2">
-                    Proteccion Civil
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
-                  <label class="form-check-label" for="gridRadios3">
-                    Capacitacion
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Tics
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
-                    Desarrollo Social
-                  </label>
-                  
-                </div>
-              </div>
-              
-              
-          </fieldset>
-
-          <div class="row justify-content-center">
-            <div class="col-1">
-              <button class="btn text-white" style="background-color: #B69664;">Enviar</button>
-            </div>
-              
+      <form class="needs-validation" novalidate>
+        <div class="row mb-3">
+          <label for="" class="col-form-label col-sm-3">CURP: </label>
+          <div class="col-sm-9">
+            <div class=" input-group d-flex has-validation">
+              <input type="text" name="" id="curp" class="form-control col" aria-describedby="btn1" required>
             
-          </div>  
+              <button class="btn" style="background-color: transparent;" id="btn1"><i class="bi bi-search fw-bold" style="color: #612233; font-size: 1rem; font-weight: 500;"></i></button>
+              <!-- <p class="mb-0 pt-2 fs-4 text-danger" id="  "></p> -->
+              
+              <div class="invalid-feedback">
+                Por favor ingresa tu CURP.
+              </div>
+            </div>
+          </div>
+                        
           
+        </div>
+        <div class="row mb-3">
+            <label for="" class="col-form-label col-sm-3">Nombre: </label>
+            <div class="col-sm-9">  
+              <input type="text" name="" id="" class="form-control col" disabled>
+            </div>
+            
+        </div>
+        <div class="row mb-3">
+            <label for="" class="col-form-label col-sm-3">Apellido paterno: </label>
+            <div class="col-sm-9">
+                <input type="text" name="" id="" class="form-control col" disabled>
+            </div>
+            
+        </div>
+        <div class="row mb-3">
+            <label for="" class="col-form-label col-sm-3">Apellido materno: </label>
+            <div class="col-sm-9">
+                <input type="text" name="" id="" class="form-control col" disabled>
+            </div>
+            
+        </div>
+        <div class="row mb-3">
+            <label for="" class="col-form-label col-sm-3">Lugar de nacimiento: </label>
+            <div class="col">
+                <input type="text" name="" id="" class="form-control" disabled>
+            </div>
+            
+        </div>
+        <div class="row mb-3">
+            <label for="" class="col-form-label col-sm-3">Municipio de recidencia: </label>
+            <div class="col">
+              <select class="form-select" aria-label="Default select example">
+                <option value="Armería">Armería</option>
+                <option value="Colima">Colima</option>
+                <option value="Comala">Comala</option>
+                <option value="Coquimatlán">Coquimatlán</option>
+                <option value="Cuauhtémoc">Cuauhtémoc</option>
+                <option value="Ixtlahuacán">Ixtlahuacán</option>
+                <option value="Manzanillo">Manzanillo</option>
+                <option value="Minatitlán">Minatitlán</option>
+                <option value="Tecomán">Tecomán</option>
+                <option value="Villa de Álvarez">Villa de Álvarez</option>
+              </select>
+            </div>
+            
+        </div>
+        <div class="row mb-3">
+            <label for="" class="col-form-label col-sm-3">Fecha de nacimiento:</label>
+            <div class="col">
+                <input type="date" name="" id="" class="form-control" disabled>
+            </div>
+        </div>
+        <div class="row mb-3">
+
+            <label for="" class="col-form-label col-sm-3">Correo electronico:</label>
+            <div class="col has-validation">
+              <input type="email" name="" id="" class="form-control" required>
+              <div class="invalid-feedback">
+                Por favor ingresa un correo electronico.
+              </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <label for="" class="col-form-label col-sm-3">Numero de celular:</label>
+            <div class="col">
+                <input type="text" name="" id="" class="form-control">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <label for="" class="col-form-label col-sm-3">Nombre de padre o tutor:</label>
+            <div class="col ">
+                <input type="text" name="" id="" class="form-control">
+            </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-3">
+            <label for="" class="col-form-label">Ocupación:</label> 
+          </div>
+          <div class="col-7">
+            <select class="form-select" aria-label="Default select example">
+              <option value="1">Estudio</option>
+              <option value="2">Trabajo</option>
+              <option value="3">Nada</option>
+            </select>
+          </div>
+          
+        </div>
+        <fieldset class="row mb-3 justify-content-between">
+            <div class="col" style="max-width: 192px;">
+              <label class="co-form-label" style="font-size: 17px;">Interés</label>
+            </div>
+            <div class="col-sm-2 p-0">
+              <div class=" form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Educación
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Salud
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                  Deportes
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                <label class="form-check-label" for="gridRadios5">
+                  Promociones
+                </label>
+              </div>
+              
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios4" value="option3">
+                <label class="form-check-label" for="gridRadios4">
+                  Cultura
+                </label>
+              </div>
+              
+            </div>
+            <div class="col-sm-3 ml-5 p-0">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                  Economía y negocios
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                <label class="form-check-label" for="gridRadios5">
+                  Empleo
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                <label class="form-check-label" for="gridRadios5">
+                  Cultura política
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                <label class="form-check-label" for="gridRadios5">
+                  Jóvenes
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                <label class="form-check-label" for="gridRadios5">
+                  Inclusión
+                </label>
+              </div>
+                
+            </div>
+            <div class="col-sm-3 p-0 mw-auto" style="max-width: 167px;">
+              <div class=" form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
+                <label class="form-check-label" for="gridRadios1">
+                  Seguridad
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  Proteccion Civil
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
+                <label class="form-check-label" for="gridRadios3">
+                  Capacitacion
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                <label class="form-check-label" for="gridRadios5">
+                  Tics
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
+                <label class="form-check-label" for="gridRadios5">
+                  Desarrollo Social
+                </label>
+                
+              </div>
+            </div>
+            
+            
+        </fieldset>
+
+        <div class="row justify-content-center">
+          <div class="col-1">
+            <button class="btn text-white" style="background-color: #B69664;" type="submit">Enviar</button>
+          </div>
+            
+          
+        </div>  
           
       </form>
     </div>
@@ -662,6 +708,7 @@
     <script type="text/javascript" src="https://openapis.col.gob.mx/API_PU/js/b4/tether.min.js"></script>
     <script type="text/javascript" src="https://openapis.col.gob.mx/API_PU/js/b4/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://openapis.col.gob.mx/API_PU/js/plugins/sweetalert/sweetalert2.all.js"></script>
+    <script src="<?= base_url() ?>/assets/js/view2.js"></script>
     <!-- Font awesome -->
     <script type='text/javascript'> var site_url ='https://www.col.gob.mx/index.php'; </script><script src='https://www.col.gob.mx/assets/js/customjs.js' type='text/javascript'></script><script src='https://www.col.gob.mx/assets/js/menu-fixed-top-dpcias.js' type='text/javascript'></script><script src='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js' type='text/javascript'></script> <script src='https://www.col.gob.mx/assets/js/jquery.validate.min.js' type='text/javascript'></script><script src='https://www.col.gob.mx/assets/js/additional-methods.js' type='text/javascript'></script><script src='https://www.google.com/recaptcha/api.js'></script><script src='https://www.col.gob.mx/assets/js/enviar-email.js' type='text/javascript'></script><script src='https://www.col.gob.mx/assets/js/busquedageneral.js' type='text/javascript'></script><script src='https://www.col.gob.mx/assets/js/destacados.js' type='text/javascript'></script>
     <script type="text/javascript" src="https://openapis.col.gob.mx/API_PU/js/b4/colgob.js"></script>
