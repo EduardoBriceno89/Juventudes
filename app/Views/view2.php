@@ -201,12 +201,12 @@
             <label for="" class="col-form-label col-sm-3">CURP: </label>
             <div class="col-sm-9">
               <div class=" input-group d-flex has-validation">
-                <input type="text" name="" id="curp" class="form-control col" aria-describedby="btn1" required>
+                <input type="text" name="" id="inpCurp" class="form-control col" aria-describedby="btn1" required>
               
                 <button class="btn" style="background-color: transparent;" id="btn1"><i class="bi bi-search fw-bold" style="color: #612233; font-size: 1rem; font-weight: 500;"></i></button>
                 <!-- <p class="mb-0 pt-2 fs-4 text-danger" id="  "></p> -->
                 
-                <div class="invalid-feedback">
+                <div class="invalid-feedback" >
                   Por favor ingresa tu CURP.
                 </div>
               </div>
@@ -242,49 +242,50 @@
               
           </div>
           <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Municipio de recidencia: </label>
-              <div class="col">
-                <select class="form-select" aria-label="Default select example">
-                  <option value="Armería">Armería</option>
-                  <option value="Colima">Colima</option>
-                  <option value="Comala">Comala</option>
-                  <option value="Coquimatlán">Coquimatlán</option>
-                  <option value="Cuauhtémoc">Cuauhtémoc</option>
-                  <option value="Ixtlahuacán">Ixtlahuacán</option>
-                  <option value="Manzanillo">Manzanillo</option>
-                  <option value="Minatitlán">Minatitlán</option>
-                  <option value="Tecomán">Tecomán</option>
-                  <option value="Villa de Álvarez">Villa de Álvarez</option>
-                </select>
-              </div>
+            <label for="" class="col-form-label col-sm-3">Fecha de nacimiento:</label>
+            <div class="col">
+              <input type="date" name="" id="" class="form-control" disabled>
+            </div>
+          </div>
+          <div class="row mb-3">
+            <label for="" class="col-form-label col-sm-3">Municipio de residencia: </label>
+            <div class="col">
+              <select class="form-select" aria-label="Default select example" id="selResidencia">
+              <option value="">Selecciona una opción</option>
+                <option value="Armería">Armería</option>
+                <option value="Colima">Colima</option>
+                <option value="Comala">Comala</option>
+                <option value="Coquimatlán">Coquimatlán</option>
+                <option value="Cuauhtémoc">Cuauhtémoc</option>
+                <option value="Ixtlahuacán">Ixtlahuacán</option>
+                <option value="Manzanillo">Manzanillo</option>
+                <option value="Minatitlán">Minatitlán</option>
+                <option value="Tecomán">Tecomán</option>
+                <option value="Villa de Álvarez">Villa de Álvarez</option>
+              </select>
+            </div>
               
           </div>
           <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Fecha de nacimiento:</label>
-              <div class="col">
-                  <input type="date" name="" id="" class="form-control" disabled>
-              </div>
-          </div>
-          <div class="row mb-3">
 
-              <label for="" class="col-form-label col-sm-3">Correo electronico:</label>
+              <label for="inpEmail" class="col-form-label col-sm-3">Correo electronico:</label>
               <div class="col has-validation">
-                <input type="email" name="" id="" class="form-control" required>
+                <input type="email" name="" id="inpEmail" class="form-control" required>
                 <div class="invalid-feedback">
                   Por favor ingresa un correo electronico.
                 </div>
               </div>
           </div>
           <div class="row mb-3">
-              <label for="" class="col-form-label col-sm-3">Numero de celular:</label>
+              <label for="inpCelular" class="col-form-label col-sm-3">Numero de celular:</label>
               <div class="col">
-                  <input type="text" name="" id="" class="form-control">
+                  <input type="text" name="" id="inpCelular" class="form-control">
               </div>
           </div>
           <div class="row mb-3">
               <label for="" class="col-form-label col-sm-3">Nombre de padre o tutor:</label>
               <div class="col ">
-                  <input type="text" name="" id="" class="form-control">
+                  <input type="text" name="" id="inpNombreTutor" class="form-control" >
               </div>
           </div>
 
