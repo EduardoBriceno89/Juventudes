@@ -10,6 +10,12 @@ class CredencialController extends BaseController
         return view("Admin/table");
     }
 
+    public function login()
+    {
+        echo "login";
+        //return view("Admin/login");
+    }
+
     public function new(){
 
     }
