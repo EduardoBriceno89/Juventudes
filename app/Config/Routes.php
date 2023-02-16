@@ -37,6 +37,9 @@ $routes->set404Override();
 // route since we don't have to scan directories.
 $routes->get('/', 'Home::index');
 $routes->presenter('credencial', ["controller" => "CredencialController"]);
+$routes->group('admin', function ($routes) {
+    $routes->presenter('credencial', ["controller" => "Admin\CredencialController"]);
+});
 
 /*
  * --------------------------------------------------------------------
