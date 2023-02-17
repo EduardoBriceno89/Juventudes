@@ -7,6 +7,8 @@ class CredencialController extends BaseController
 {
     public function index()
     {
+        $session = session();
+        
         return view("Admin/table");
     }
 
@@ -14,6 +16,16 @@ class CredencialController extends BaseController
     {
     
         return view("Admin/login");
+    }
+
+    public function loginValidation()
+    {
+        echo "validacion de login";
+        $session  = session();
+
+        $session->set("userName", "Marcos");
+
+        return redirect()->to("admin/credencial");
     }
 
     public function new(){

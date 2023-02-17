@@ -14,7 +14,7 @@
   </head>
   <body>
     <main class="container d-flex justify-content-center align-items-center">
-      <form>
+      <form action="<?=base_url()?>/validate" method="post">
         <img src="<?=base_url()?>/assets/images/logo.jpg" alt="" srcset="" class="logo" />
         <div class="form-outline mb-4">
           <label class="form-label" for="form1Example1">Correo</label>

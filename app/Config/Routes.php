@@ -42,6 +42,7 @@ $routes->group('admin', function ($routes) {
     
 });
 $routes->get('login', 'Admin\CredencialController::login');
+$routes->post("validate", "Admin\CredencialController::loginValidation");
 
 
 
