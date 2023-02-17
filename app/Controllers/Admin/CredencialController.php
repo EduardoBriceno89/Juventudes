@@ -12,8 +12,8 @@ class CredencialController extends BaseController
 
     public function login()
     {
-        echo "login";
-        //return view("Admin/login");
+    
+        return view("Admin/login");
     }
 
     public function new(){
