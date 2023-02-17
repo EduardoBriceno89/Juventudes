@@ -39,8 +39,9 @@ $routes->get('/', 'Home::index');
 $routes->presenter('credencial', ["controller" => "CredencialController"]);
 $routes->group('admin', function ($routes) {
     $routes->presenter('credencial', ["controller" => "Admin\CredencialController"]);
-    $routes->get('login', 'Admin\CredencialController::login');
+    
 });
+$routes->get('login', 'Admin\CredencialController::login');
 
 
 

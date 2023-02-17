@@ -10,6 +10,12 @@ class Admin implements FilterInterface
 {
     public function before(RequestInterface $request, $arguments = null)
     {
+        $session = session();
+        $userName = $session->get("userName"); 
+        if(empty($userName)){
+            echo "sin session";
+            return redirect()->to("/login");
+        }
         
         
     }

@@ -10,12 +10,12 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="loginStyles.css" />
+    <link rel="stylesheet" href="<?=base_url()?>/assets/css/loginStyles.css" />
   </head>
   <body>
     <main class="container d-flex justify-content-center align-items-center">
       <form>
-        <img src="images/logo.jpg" alt="" srcset="" class="logo" />
+        <img src="<?=base_url()?>/assets/images/logo.jpg" alt="" srcset="" class="logo" />
         <div class="form-outline mb-4">
           <label class="form-label" for="form1Example1">Correo</label>
           <input
