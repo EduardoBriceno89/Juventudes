@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html ng-app="PortalUnico" prueba="true">
-  <head >
+  <head>
     <meta name="google-site-verification" content="vgE7xTPnRDI9JNHuGHmNQeU55Yr58j9hwq9Wk06R8qk" />  
       
     <title>
@@ -26,6 +26,8 @@
     <!-- Customcss -->
         
     <link rel="stylesheet" href="https://openapis.col.gob.mx/API_PU/css/bs4/layout.css">
+
+    <script type="text/javascript" src="https://openapis.col.gob.mx/API_PU/js/b4/jquery-3.2.1.js"></script>
     <?= $this->renderSection("styles") ?>
     
       
@@ -54,42 +56,21 @@
           <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavDropdown">
             <ul class="navbar-nav">
                     <li class="nav-item active">
-                <a class="nav-link cursor denuncia-menu" target="_blank" href="https://www.col.gob.mx/coronavirus" >CORONAVIRUS</a>
+                <a class="nav-link cursor denuncia-menu" target="_blank" href="https://www.col.gob.mx/coronavirus" >Estudiantes</a>
             </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.col.gob.mx/Portal/Tramites">Tr&aacute;mites</a>
+                <a class="nav-link" href="https://www.col.gob.mx/Portal/Tramites">Negocios</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Gobierno</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.col.gob.mx/Portal/#sec_atencion" >Cont&aacute;ctanos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link cursor" target="_blank" href="https://www.col.gob.mx/DatosAbiertos" >Datos</a>
+                <a class="nav-link" href="https://www.col.gob.mx/Portal/#sec_atencion" >Estadísticas</a>
               </li>
               <!-- <li class="nav-item">
                 <a href="https://www.col.gob.mx/transparencia" class="nav-link cursor" target="_blank">Transparencia</a>
               </li> -->
-            <li class="nav-item">
-                <a href="https://www.col.gob.mx/Portal/contenido/NDYzMDY=" class="nav-link cursor" target="_blank">Transparencia</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link cursor denuncia-menu" href="https://www.col.gob.mx/index.php/Portal/denuncia" >DENUNCIA</a>
-            </li>
-              <li class="nav-item" >
-                <a class="nav-link" id="navbar-search-li-first" href="#" onclick="ocultar(this)"><i alt="Buscar" title="Buscar" class="fa fa-search" aria-hidden="true"></i></a>
-              </li>
-                
-              <form id="formBusqueda" method="GET" action="https://www.col.gob.mx/Portal/detalle_busqueda" class="nav-item display-none" id="navbar-search-li-second">
-                <div class="input-group" id="navbar-input-search">
-                <input type="text" name="q" class="form-control">
-                <span class="input-group-btn">
-                  <button class="btn btn-secondary" type="submit">
-                  <i alt="Buscar" title="Buscar" class="fa fa-search" aria-hidden="true"></i></button>
-                </span>
-              </div>
-              </form>
+            
                 
                       </ul>
           </div>
@@ -114,6 +95,11 @@
 
     
     <!-- <script src="<?= base_url() ?>/assets/js/view2.js"></script> -->
+
+    <script type="text/javascript" src="https://openapis.col.gob.mx/API_PU/js/b4/bootstrap.min.js"></script>
+    <script src="<?= base_url() ?>/assets/js/view2.js"></script>
+    <!-- Font awesome -->
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

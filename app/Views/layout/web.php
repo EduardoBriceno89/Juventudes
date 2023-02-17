@@ -28,21 +28,10 @@
        
     
     
-    <Link rel = "canonical" href = "https://www.col.gob.mx/juventud"/><meta property="og:url" 	 content="http://www.col.gob.mx" /><meta property="og:type"  content="website" /><meta property="og:title" content="Gobierno del estado de colima" /><meta property="og:description" content="Gobierno del estado de colima" /><meta property="og:image" content="http://www.col.gob.mx/assets/img/escudo.png" /><Link rel = "canonical" href = "https://www.col.gob.mx/juventud"/><meta property="og:url" 	 content="http://www.col.gob.mx" /><meta property="og:type"  content="website" /><meta property="og:title" content="Gobierno del estado de colima" /><meta property="og:description" content="Gobierno del estado de colima" /><meta property="og:image" content="http://www.col.gob.mx/assets/img/escudo.png" /><link rel='stylesheet' type='text/css' href='https://www.col.gob.mx/assets/css/customcss.css'><script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=59cd2679fdc69400125962c9&product=inline-share-buttons"></script>    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113367037-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-113367037-1');
-</script>
+    <Link rel = "canonical" href = "https://www.col.gob.mx/juventud"/><meta property="og:url" 	 content="http://www.col.gob.mx" /><meta property="og:type"  content="website" /><meta property="og:title" content="Gobierno del estado de colima" /><meta property="og:description" content="Gobierno del estado de colima" /><meta property="og:image" content="http://www.col.gob.mx/assets/img/escudo.png" /><Link rel = "canonical" href = "https://www.col.gob.mx/juventud"/><meta property="og:url" 	 content="http://www.col.gob.mx" /><meta property="og:type"  content="website" /><meta property="og:title" content="Gobierno del estado de colima" /><meta property="og:description" content="Gobierno del estado de colima" /><meta property="og:image" content="http://www.col.gob.mx/assets/img/escudo.png" /><link rel='stylesheet' type='text/css' href='https://www.col.gob.mx/assets/css/customcss.css'>   <!-- Global site tag (gtag.js) - Google Analytics -->
 	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body data-url="https://openapis.col.gob.mx/API_PU/" id="Body">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/1.9.4/bowser.min.js"></script>
- <link href="https://openapis.col.gob.mx/API_PU/css/scripts/accesibilidad.css" rel="stylesheet" type="text/css">
 <!-- <script type="text/javascript" src="https://openapis.col.gob.mx/API_PU/js/scripts/accesibilidad.js"></script> -->
 
 <style>
