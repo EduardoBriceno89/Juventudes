@@ -263,6 +263,9 @@
                 <option value="Tecomán">Tecomán</option>
                 <option value="Villa de Álvarez">Villa de Álvarez</option>
               </select>
+              <div class="invalid-feedback">
+                Por favor ingresa una opción valida.
+              </div>
             </div>
               
           </div>
@@ -308,33 +311,33 @@
               </div>
               <div class="col-lg-2 p-0">
                 <div class=" form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbEducacion" value="Educación" checked>
+                  <label class="form-check-label" for="chbEducacion">
                     Educación
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
-                  <label class="form-check-label" for="gridRadios2">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbSalud" value="Salud">
+                  <label class="form-check-label" for="chbSalud">
                     Salud
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
-                  <label class="form-check-label" for="gridRadios3">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbDeportes" value="Deportes">
+                  <label class="form-check-label" for="chbDeportes">
                     Deportes
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbPromociones" value="Promociones">
+                  <label class="form-check-label" for="chbPromociones">
                     Promociones
                   </label>
                 </div>
                 
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios4" value="option3">
-                  <label class="form-check-label" for="gridRadios4">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbCultura" value="Cultura">
+                  <label class="form-check-label" for="chbCultura">
                     Cultura
                   </label>
                 </div>
@@ -342,32 +345,32 @@
               </div>
               <div class="col-lg-3 ml-5 p-0">
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
-                  <label class="form-check-label" for="gridRadios3">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbEcoNego" value="Economía y negocios">
+                  <label class="form-check-label" for="chbEcoNego">
                     Economía y negocios
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbEmpleo" value="Empleo">
+                  <label class="form-check-label" for="chbEmpleo">
                     Empleo
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbCulPol" value="Cultura política">
+                  <label class="form-check-label" for="chbCulPol">
                     Cultura política
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbJovenes" value="Jóvenes">
+                  <label class="form-check-label" for="chbJovenes">
                     Jóvenes
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbInclusión" value="Inclusión">
+                  <label class="form-check-label" for="chbInclusión">
                     Inclusión
                   </label>
                 </div>
@@ -375,32 +378,32 @@
               </div>
               <div class="col-lg-3 p-0 mw-auto" style="max-width: 167px;">
                 <div class=" form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios1" value="option1" checked>
-                  <label class="form-check-label" for="gridRadios1">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbSeguridad" value="Seguridad">
+                  <label class="form-check-label" for="chbSeguridad">
                     Seguridad
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios2" value="option2">
-                  <label class="form-check-label" for="gridRadios2">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbPC" value="Proteccion Civil">
+                  <label class="form-check-label" for="chbPC">
                     Proteccion Civil
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios3" value="option3">
-                  <label class="form-check-label" for="gridRadios3">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbCapacitacion" value="Capacitacion">
+                  <label class="form-check-label" for="chbCapacitacion">
                     Capacitacion
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbTics" value="Tics">
+                  <label class="form-check-label" for="chbTics">
                     Tics
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" name="gridRadios" id="gridRadios5" value="option3">
-                  <label class="form-check-label" for="gridRadios5">
+                  <input class="form-check-input" type="checkbox" name="interest" id="chbDesSoc" value="Desarrollo Social">
+                  <label class="form-check-label" for="chbDesSoc">
                     Desarrollo Social
                   </label>
                   
