@@ -178,7 +178,7 @@
 
     <div class="row justify-content-center">
       <div class="col-auto">
-      <h1 class="padding-left">Credencial Juventudes</h1>    
+        <h1 class="padding-left">Credencial Juventudes</h1>    
       </div>
       
       <div class="col-12 separador-secciones-dark-2-pu"></div>
@@ -195,6 +195,7 @@
         <img src="<?= base_url() ?>/assets/images/2-02-02.jpg" class="img-fluid mh-100" alt="img">
 
       </div>
+
       <div class="col">
         <form class="needs-validation" novalidate>
           <div class="row mb-3">
@@ -211,7 +212,6 @@
                 </div>
               </div>
             </div>
-                          
             
           </div>
           <div class="row mb-3">
@@ -423,11 +423,19 @@
             
         </form>
       </div>
+
       <div class="img-from col-lg-2 col-md-2 m-0 p-0">
         <img src="<?= base_url() ?>/assets/images/3-03.jpg" class="img-fluid" alt="img">
       </div>
+
     </div>
       
+    </div>
+
+    <div class="row">
+      <div class="col-auto">
+        <a href="<?=base_url()?>/admin/credencial" class="link-primary">Accede como administrador</a>
+      </div>
     </div>
 
 

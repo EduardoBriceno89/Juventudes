@@ -27,7 +27,6 @@
   <body data-url="https://openapis.col.gob.mx/API_PU/" id="Body">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/1.9.4/bowser.min.js"></script>
  <link href="https://openapis.col.gob.mx/API_PU/css/scripts/accesibilidad.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="https://openapis.col.gob.mx/API_PU/js/scripts/accesibilidad.js"></script>
 
 <style>
 .border_resaltar{
@@ -35,39 +34,6 @@
 }
 </style>
 
-
-<div class="row-fluid" id="navbar_visuales" data-mostrar_herramientas="" style="display:none"> 
-	<div class="container">
-		<div class="row font-changer internal print">
-				<div title="Herramientas de accesibilidad web" class="col-md-2">
-					<i class="fa fa-universal-access fa-2x"></i>&nbsp; Accesibilidad Web
-				</div>
-				<div class="col-md-10">
-					<div class="row">
-					<!-- <div class="col-md-12 text-center">Herramientas de accesibilidad web</div> -->
-						<div class="col-md-2 options_visuales cursor" title="Aumentar tamaño de la página">
-							<div class="aumentarFont"><i class="fa fa-font fa-2x">a+</i><br/>Aumentar tamaño</div>
-						</div>
-						<div class="col-md-2 options_visuales cursor" title="Disminuir tamañao de la página">
-							<div class="disminuirFont"><i class="fa fa-font fa-2x">a-</i><br/>Disminuir tamaño</div>
-						</div>
-						<div title="Aplicar alto contraste" id="pantalla_mod" data-tipo="" class="col-md-2 cursor options_visuales" onclick="ActivaModoNocturno()">
-							<i class="fa fa-adjust fa-2x"></i><br/><span>Alto contraste</span>
-						</div>
-						<div title="" class="col-md-2 options_visuales cursor" id="estado_narrador">
-							<i class="fa fa-play fa-2x"></i><br/> <span>Narrador (Desactivado)<span>
-						</div>
-						<div title="Ampliar las imagenes al pasar sobre ellas" class="col-md-2 options_visuales cursor" onclick="AmpliarImagen()">
-							<i class="fa fa-image fa-2x"></i><br/> Ampliar imagen
-						</div>
-						<a title="Reestablecer herramientas" onclick="ActivaModoRestablecer()" target="_blank" style="color:#fff !important"  class="col-md-2 options_visuales cursor">
-							<i class="fa fa-refresh fa-2x"></i><br/> Restablecer
-						</a>
-					</div>
-				</div>
-		</div>
-	</div>	
-</div>
 <!---
 <div class="container">
     <input type="text" placeholder="Texto to Speech" id="text" value="hola">
