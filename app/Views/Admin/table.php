@@ -25,10 +25,10 @@
                 <td>2011-04-25</td>
                 <td>$320,800</td>
                 <td style="display: flex; justify-content: space-around">
-                    <i class="bi bi-search"></i>
-                    <i class="bi bi-pencil-square"></i>
-                    <i class="bi bi-x-circle"></i>
-                    <i class="bi bi-printer"></i>
+                    <button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal" ><i class="bi bi-search"></i></button>
+                    <button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-pencil-square"></i></button>
+                    <button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-x-circle"></i></button>
+                    <button class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="bi bi-printer"></i></button>
                 </td>
                 </tr>
                 <tr>
@@ -163,6 +163,106 @@
         </div>
     </main>
 
+
+    <!-- Modal details -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header bg-light">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row mb-3">
+                        <label for="" class="col-form-label col-sm-3">CURP: </label>
+                        <div class="col-sm-9">
+                            <div class=" input-group d-flex has-validation">
+                                <input type="text" name="" id="inpCurp" class="form-control col" aria-describedby="btn1" required>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row mb-3">
+                        <label for="" class="col-form-label col-sm-3">Nombre: </label>
+                        <div class="col-sm-9">  
+                            <input type="text" name="" id="inpName" class="form-control col">
+                        </div>
+                        
+                    </div>
+                    <div class="row mb-3">
+                        <label for="" class="col-form-label col-sm-3">Apellido paterno: </label>
+                        <div class="col-sm-9">
+                            <input type="text" name="" id="inpFatherLastName" class="form-control col">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="" class="col-form-label col-sm-3">Apellido materno: </label>
+                        <div class="col-sm-9">
+                            <input type="text" name="" id="inpMotherLastName" class="form-control col">
+                        </div>
+                        
+                    </div>
+                    <div class="row mb-3">
+                        <label for="" class="col-form-label col-sm-3">Lugar de nacimiento: </label>
+                        <div class="col">
+                            <input type="text" name="" id="inpPalceBirth" class="form-control">
+                        </div>
+                        
+                    </div>
+                    <div class="row mb-3">
+                        <label for="" class="col-form-label col-sm-3">Fecha de nacimiento:</label>
+                        <div class="col">
+                        <input type="date" name="" id="inpBirthDate" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="" class="col-form-label col-sm-3">Municipio de residencia: </label>
+                        <div class="col">
+                            <select class="form-select" aria-label="Default select example" id="selResidence">
+                                <option value="">Selecciona una opción</option>
+                                <option value="Armería">Armería</option>
+                                <option value="Colima">Colima</option>
+                                <option value="Comala">Comala</option>
+                                <option value="Coquimatlán">Coquimatlán</option>
+                                <option value="Cuauhtémoc">Cuauhtémoc</option>
+                                <option value="Ixtlahuacán">Ixtlahuacán</option>
+                                <option value="Manzanillo">Manzanillo</option>
+                                <option value="Minatitlán">Minatitlán</option>
+                                <option value="Tecomán">Tecomán</option>
+                                <option value="Villa de Álvarez">Villa de Álvarez</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    <div class="row mb-3">
+
+                        <label for="inpEmail" class="col-form-label col-sm-3">Correo electronico:</label>
+                        <div class="col has-validation">
+                            <input type="email" name="" id="inpEmail" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inpCelular" class="col-form-label col-sm-3">Numero de celular:</label>
+                        <div class="col">
+                            <input type="text" name="" id="inpCellPhone" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="" class="col-form-label col-sm-3">Nombre de padre o tutor:</label>
+                        <div class="col ">
+                            <input type="text" name="" id="inpGuardianName" class="form-control" >
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-warning">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+Static backdrop
 <?= $this->endSection() ?>
 
 <?= $this->section("scripts") ?>
@@ -171,4 +271,6 @@
         $("#example").DataTable();
       });
     </script>
+
+    <script src="<?=base_url()?>/assets/js/adminTable.js"></script>
 <?= $this->endSection() ?>

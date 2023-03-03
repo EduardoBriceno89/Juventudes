@@ -93,11 +93,9 @@
     <?= $this->renderSection('content') ?>
 
 
-    
-    <!-- <script src="<?= base_url() ?>/assets/js/view2.js"></script> -->
 
     <script type="text/javascript" src="https://openapis.col.gob.mx/API_PU/js/b4/bootstrap.min.js"></script>
-    <script src="<?= base_url() ?>/assets/js/view2.js"></script>
+  
     <!-- Font awesome -->
 
     <script
@@ -109,12 +107,6 @@
     <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
     
     <?= $this->renderSection("scripts") ?>
-    
-    <script>
-      $(document).ready(function () {
-        $("#example").DataTable();
-      });
-    </script>
     
    
   </body>

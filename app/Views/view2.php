@@ -37,18 +37,7 @@
       </div>
     </div>	
   </div>
-  <!---
-  <div class="container">
-      <input type="text" placeholder="Texto to Speech" id="text" value="hola">
-      <div class="conversation"></div>
-      <div class="container-button">
-        <select id="voices"></select>
-        <button id="btnSave"><i class="fas fa-upload"></i>Save text</button>
-        <button id="btnLoad" disabled><i class="fas fa-download"></i>Load text</button>
-        <button id="btnPlay" disabled><i class="fas fa-play-circle"></i>Play text</button>
-      </div>
-    </div>
-  --->  <!-- nav container -->
+  
       <div id="GobNavbar" class="container-fluid navbar-container-pu op GobNavbar"> 
     
 
@@ -165,11 +154,11 @@
     </div>
   </div>      
   <div class="container no-padding-pu border-separador ">
-    <div class="row mx-2">
-      <div class="col-lg-4 pt-3">
+    <div class="row mx-2 justify-content-between">
+      <div class="col-lg-auto pt-3">
         <span class="font-weight-bold"> SUBSECRETARÍA DE LAS JUVENTUDES </span>
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-auto">
         <ol class='breadcrumb pull-right'><li class='breadcrumb-item'><a href='https://www.col.gob.mx/' title='Gobierno del estado de colima'><img class='bread-pbc' src='https://www.col.gob.mx/assets/img/escudo_breadcrum.png' alt='Gobierno colima'>col.gob.mx</a></li><li class='breditem-pt2 breadcrumb-item active'><a href='' title=''>Juventudes</a></li></ol>		</div>
     </div>
   </div>                  
